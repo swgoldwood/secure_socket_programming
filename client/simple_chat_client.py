@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 
+#Client for connecting to server and chatting using simple socket connections
+# use with server/simple_chat_server.py
+
 import socket, select, string, sys, readline
 
 def prompt(msg = ""):
